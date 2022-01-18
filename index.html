@@ -3,23 +3,93 @@
 <title>Vide</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>.btn {padding-left:2rem;padding-right:2rem;min-width:10rem;border-radius:4px;} i{font-size:.8rem}</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+<head>
+<style>
+.btn {padding-left:2rem;padding-right:2rem;min-width:10rem;border-radius:4px;} i{font-size:.8rem}
+.gr {background:rgb(240,240,240)}
+.shape-div-top img, .shape-div-b img {position: relative;display:block;width:calc(100% + 1.3px);height:42px;}
+.shape-div-top img {transform:rotateX(180deg)}
+.shape-div-b, .shape-div-top {position:relative;top:0;left:0;width:100%;overflow:hidden;line-height:0;}
+
+th,td {min-width:6rem;border:1px solid rgb(220,220,220);text-align:center}
+table {border:1px solid rgb(200,200,200);border-radius:12px}
+.subtitle {font-size:2rem;text-align:center;padding-bottom:2rem;margin-top:-1rem;}
+
+.github-fork-ribbon:before {background-color:rgb(50,85,130);box-shadow:none;}
+img {vertical-align:middle}
+* {scrollbar-color: rgb(200,200,200) black;}
+</style>
+<div class="github-fork-ribbon left-top" data-ribbon="Alpha Software">Alpha Software</div>
+</head>
 <body>
-<div class="w3-auto" style="min-height:80vh;margin-top:15vh">
-    <div class="w3-row">
-        <div class="w3-half">
-            <img src="vide.png" alt="Vide" style="width:350px!important;margin:0">
-            <div style="margin-left:2rem">
-                <p style="font-size:1.4rem">V-ide &middot; Simple IDE for V made in V.</p>
-                <a href="https://github.com/IsaiahPatton/Vide/releases"><button class="w3-button w3-black btn">Download <i>(1.8mb)</i></button></a>
-                <a href="https://github.com/IsaiahPatton/Vide"><button class="w3-button w3-black btn">Github</button></a><br>
-            </div>
-        </div>
-        <div class="w3-half"><img src="preview-1.png" style="width:100%"></div>
-    </div>
+
+<div class="w3-auto" style="min-height:70vh;margin-top:20vh">
+	<div class="w3-row">
+		<div class="w3-half">
+			<img src="vide.png" alt="Vide" style="width:350px!important;margin:0">
+			<div style="margin-left:2rem">
+				<p style="font-size:1.4rem">V-ide &middot; Simple IDE for V made in V.</p>
+				<a href="https://github.com/IsaiahPatton/Vide/releases"><button class="w3-button w3-black dtn btn">&nbsp;Download <i>(1.5mb)</i></button></a>
+				<a href="https://github.com/IsaiahPatton/Vide"><button class="w3-button w3-black btn">Github</button></a><br>
+			</div>
+		</div>
+		<div class="w3-half"><img src="preview-1.png" style="width:100%"></div>
+	</div>
 </div>
-<div class="w3-container w3-black" style="position:absolute;bottom:0;width:100vw">
-  <small>&copy; 2021-2022</small>
+
+<div class="shape-div-top"><img src="./shape.svg"></div>
+
+<div class="gar curve" style="min-height:1vh;position:relative">
+	<div class="gr" style="min-height:1vh">
+		<div class="w3-content w3-row" style="padding-top:8vh">
+			<div class="w3-half">
+				<div class="subtitle">Lite</div>
+				<table style="width:100%">
+				  <tr>
+					<th>&nbsp;</th><th>Disk</th><th>RAM</th><th>Renderer</th>
+				  </tr>
+				  <tr>
+					<td><img src="vide.png" height="26rem"></td><td>1.5 MB</td><td>~ 60 MB</td><td><a href="https://modules.vlang.io/gg.html">GG</a></td>
+				  </tr>
+				  <tr>
+					<td>VS Code</td><td>308 MB</td><td>~ 330 MB</td><td>Electron</td>
+				  </tr>
+				</table>
+				<p style="font-size:1.5rem">Only <b>2MB</b> of disk<br>&amp; <b>&lt;60 MB</b> of RAM</p>
+			</div>
+			<div class="w3-half">
+				<div class="subtitle">Themes</div>
+				<center>
+					<img src="./preview-1.png" style="width:300px;display:inline;">
+					<img src="./preview-2.png" style="width:300px;position:relative;left:40px;display:inline;top:-160px;">
+				</center>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="shape-div-b"><img src="./shape.svg"></div>
+<div class="curve" style="min-height:80vh;margin-top:5vh;margin-bottom:5vh">
+	<div class="w3-content w3-row">
+		<div class="w3-row">
+			<div class="w3-half">
+				<figure><img src="./assets/preview-1.png" style="width:100%" class="w3-border"><figcaption>Light Theme</figcaption></figure>
+			</div>
+			<div class="w3-half">
+				<figure><img src="./assets/preview-2.png" style="width:100%" class="w3-border"><figcaption>Dark Theme</figcaption></figure>
+			</div>
+		</div>
+		<div class="w3-row">
+			<div class="w3-half">
+				<figure><img src="./new-proj.png" style="width:100%"><figcaption>New Project Dialog</figcaption></figure>
+			</div>
+		</div>
+	</div>
+</div>
+<p>&nbsp;</p>
+
+<div class="w3-container w3-black w3-padding-16">
+  <small>Vide - Simple IDE for V.</small> <small style="float:right">&copy; 2021-2022 Isaiah. </small>&middot; <a href="https://github.com/isaiahpatton/Vide">Github</a>
 </div>
 </body>
 </html> 
