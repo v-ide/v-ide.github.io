@@ -7,7 +7,7 @@
 <head>
 <style>
 .btn {padding-left:2rem;padding-right:2rem;min-width:10rem;border-radius:4px;} i{font-size:.8rem}
-.gr {background:rgb(240,240,240)}
+.gr {background:rgb(235,235,235)}
 .shape-div-top img, .shape-div-b img {position: relative;display:block;width:calc(100% + 1.3px);height:42px}
 .shape-div-top img {transform:rotateX(180deg)}
 .shape-div-b, .shape-div-top {position:relative;top:0;left:0;width:100%;overflow:hidden;line-height:0}
@@ -19,7 +19,8 @@ table {border:1px solid rgb(200,200,200);border-radius:12px}
 
 .github-fork-ribbon:before {background-color:rgb(50,85,130);box-shadow:none}
 img {vertical-align:middle}
-* {scrollbar-color: rgb(200,200,200) black;}
+* {scrollbar-color: rgb(200,200,200) black;transition:all .2s}
+.w3-ablack {background-color:rgb(230,230,230);border:1px solid rgb(215,215,215)}
 </style>
 <div class="github-fork-ribbon left-top" data-ribbon="Alpha Software">Alpha Software</div>
 </head>
@@ -28,14 +29,14 @@ img {vertical-align:middle}
 <div class="w3-auto" style="min-height:70vh;margin-top:20vh">
 	<div class="w3-row">
 		<div class="w3-half">
-			<img src="vide.png" alt="Vide" style="width:350px!important;margin:0">
+			<img src="vide1.png" alt="Vide" style="width:350px!important;margin:0">
 			<div style="margin-left:2rem">
 				<p style="font-size:1.4rem">V-ide &middot; Simple IDE for V made in V.</p>
-				<a href="https://github.com/IsaiahPatton/Vide/releases"><button class="w3-button w3-black dtn btn">&nbsp;Download <i>(1.5mb)</i></button></a>
-				<a href="https://github.com/IsaiahPatton/Vide"><button class="w3-button w3-black btn">Github</button></a><br>
+				<a href="https://github.com/IsaiahPatton/Vide/releases"><button class="w3-button w3-ablack dtn btn">&nbsp;Download <i>(1.5mb)</i></button></a>
+				<a href="https://github.com/IsaiahPatton/Vide"><button class="w3-button w3-ablack btn">Github</button></a><br>
 			</div>
 		</div>
-		<div class="w3-half"><img src="preview-1.png" style="width:100%"></div>
+		<div class="w3-half w3-animate-right"><img src="preview-1.png" style="width:100%"></div>
 	</div>
 </div>
 
@@ -87,11 +88,16 @@ img {vertical-align:middle}
 				<figure><img class="w3-border" src="./assets/preview-3.png" style="width:100%"><figcaption>Code Suggestions <i>(Beta)</i></figcaption></figure>
 			</div>
 		</div>
+        <div class="w3-row">
+			<div class="w3-third">
+				<figure><img src="./assets/vpm.png" style="width:100%"><figcaption>UI for <a target="_blank" href="https://vpm.vlang.io/">VPM</a></figcaption></figure>
+			</div>
+		</div>
 	</div>
 </div>
 <p>&nbsp;</p>
 
-<div class="w3-container w3-black w3-padding-16">
+<div class="w3-container w3-light-gray w3-padding-16">
   <small>Vide - Simple IDE for V.</small> <small style="float:right">&copy; 2021-2022 Isaiah. </small>&middot; <a href="https://github.com/isaiahpatton/Vide">Github</a>
 </div>
 </body>
